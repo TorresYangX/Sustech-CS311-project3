@@ -1,0 +1,94 @@
+#traindata
+
+age                int64
+workclass         object 
+fnlwgt             int64
+education         object 
+education.num      int64
+marital.status    object 
+occupation        object 
+relationship      object
+race              object
+sex               object
+capital.gain       int64
+capital.loss       int64
+hours.per.week     int64
+native.country    object
+
+缺失值:(.isnull().sum())
+age               0.000000
+workclass         5.607231
+fnlwgt            0.000000
+education         0.000000
+education.num     0.000000
+marital.status    0.000000
+occupation        5.629168
+relationship      0.000000
+race              0.000000
+sex               0.000000
+capital.gain      0.000000
+capital.loss      0.000000
+hours.per.week    0.000000
+native.country    1.855914
+
+
+#workclass
+['?' 'Federal-gov' 'Local-gov' 'Never-worked' 'Private' 'Self-emp-inc' 'Self-emp-not-inc' 'State-gov' 'Without-pay']
+
+dfference: no difference
+
+
+# education:
+['10th' '11th' '12th' '1st-4th' '5th-6th' '7th-8th' '9th' 'Assoc-acdm' 
+'Assoc-voc' 'Bachelors' 'Doctorate' 'HS-grad' 'Masters' 'Preschool' 'Prof-school' 'Some-college']
+
+dfference: no difference
+
+
+# marital.status:
+['Divorced' 'Married-AF-spouse' 'Married-civ-spouse' 'Married-spouse-absent' 'Never-married' 'Separated' 'Widowed']
+
+dfference: no difference
+
+
+# occupation:
+['?' 'Adm-clerical' 'Armed-Forces' 'Craft-repair' 'Exec-managerial'
+ 'Farming-fishing' 'Handlers-cleaners' 'Machine-op-inspct' 'Other-service'
+ 'Priv-house-serv' 'Prof-specialty' 'Protective-serv' 'Sales'
+ 'Tech-support' 'Transport-moving']
+
+ dfference: no difference
+
+
+# relationship
+['Husband' 'Not-in-family' 'Other-relative' 'Own-child' 'Unmarried' 'Wife']
+
+dfference: no difference
+
+
+# race
+['Amer-Indian-Eskimo' 'Asian-Pac-Islander' 'Black' 'Other' 'White']
+
+dfference: no difference
+
+
+# sex
+['Female' 'Male']
+
+dfference: no difference
+
+
+# native.country
+['?' 'Cambodia' 'Canada' 'China' 'Columbia' 'Cuba' 'Dominican-Republic'
+ 'Ecuador' 'El-Salvador' 'England' 'France' 'Germany' 'Greece' 'Guatemala'
+ 'Haiti' 'Honduras' 'Hong' 'Hungary' 'India' 'Iran' 'Ireland' 'Italy'
+ 'Jamaica' 'Japan' 'Laos' 'Mexico' 'Nicaragua'
+ 'Outlying-US(Guam-USVI-etc)' 'Peru' 'Philippines' 'Poland' 'Portugal'
+ 'Puerto-Rico' 'Scotland' 'South' 'Taiwan' 'Thailand' 'Trinadad&Tobago'
+ 'United-States' 'Vietnam' 'Yugoslavia']
+ 
+ difference: testdata has one more: ['Holand-Netherlands']:
+ 
+9360   32   Private   27882  Some-college    10  Never-married  ...  White  Female      0      2205     40  Holand-Netherlands
+
+

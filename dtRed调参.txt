@@ -1,0 +1,5 @@
+criterion = gini
+max_depth = 9   0.83384545
+min_samples_split = 15  0.83454749
+min_samples_leaf = 13   0.85350144
+网格搜索小范围调参：'max_depth': 9, 'min_samples_leaf': 9, 'min_samples_split': 10         0.8342840811990484
